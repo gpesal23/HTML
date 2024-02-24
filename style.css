@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+
+body{
+    background: linear-gradient(to top white, blue);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background: fixed;
+}
+
+a{ text-decoration: none; 
+}
+
+header{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+header ul{ 
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+} 
+
+
+header ul li{
+    margin: 10px;
+    text-decoration: none;
+}
+ 
+
+img{ 
+    width: 150px;
+}
+
+h1{
+    font-size: 24;
+    color: rgb(19, 19, 221);
+    font-family: "Lobster", sans-serif;
+}
+p{
+    font-size: 14;
+    color: rgb(8, 11, 177);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(246, 246, 252);
+    margin: 10px, 0, 10px, 0;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.caja img {
+    border-radius: 50;
+    margin: 10px, 10px, 10px, 10px;
+} 
+
+.caja img{
+    border-radius: 50;
+    font-size: 15px;
+}
+.presentacion{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center 
+}
+.presentacion h1{
+    font-size: 25px;
+    font-family: "Lobster", sans-serif;
+    font-style: normal;
+}
+.presentacion p{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    font-family: "Pacifico", cursive;
+    
+} 
+.carrusel-item{
+    width: 100px;
+    height: 100px;
+}
+#nosotros{
+    width: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px, 0, 10px,0;
+}
+
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px
+}
+  
+footer{ 
+    font-size: 14;
+    color: rgb(12, 9, 221);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
